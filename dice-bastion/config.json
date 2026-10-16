@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "planets": [
+    { "id": "home_moon", "enemyHp": 1.0, "enemySpeed": 1.0, "enemyCount": 1.0 },
+    { "id": "frost_moon", "enemyHp": 1.0, "enemySpeed": 1.0, "enemyCount": 1.0 },
+    { "id": "volcanic_world", "enemyHp": 1.0, "enemySpeed": 1.0, "enemyCount": 1.0 },
+    { "id": "crystal_rock", "enemyHp": 1.0, "enemySpeed": 1.0, "enemyCount": 1.0 },
+    { "id": "storm_giant", "enemyHp": 1.0, "enemySpeed": 1.0, "enemyCount": 1.0 }
+  ],
+  "interstitialSeconds": 180,
+  "interstitialLevels": 2,
+  "adFlux": 10,
+  "adFluxPerDay": 3
+}
