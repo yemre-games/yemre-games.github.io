@@ -13,7 +13,7 @@
 <!--
   Yemre Games — geliştirici sitesi (yemre-games.github.io, kök). Dış istek yok: yazı tipi ve görseller bu depoda.
   Stüdyo ikonu şimdilik yok (geliştiricinin kararı, 20.10.2026).
-  Yayın günü: aşağıda PLAY_LIVE = true yap (Google Play düğmesi gerçek bağlantıya döner).
+  PLAY_LIVE = true (27.10.2026: oyun Google Play'de yayında; düğme mağaza sayfasına gider).
 -->
 <style>
   @font-face { font-family: "Chakra Petch"; font-weight: 600; font-display: swap; src: url("assets/fonts/chakra-petch-600.woff2") format("woff2"); }
@@ -91,7 +91,7 @@
         <img src="assets/dice-bastion/icon.png" alt="Dice Bastion icon" width="64" height="64">
         <div>
           <h3>Dice Bastion: Space Defense</h3>
-          <p data-i18n="meta">Android · In closed testing, coming soon</p>
+          <p data-i18n="meta">Android · Available on Google Play</p>
         </div>
       </div>
       <p data-i18n="game1">Throw dice and use the face that lands on top to defend your outpost from alien hordes.</p>
@@ -102,7 +102,7 @@
         <img src="assets/dice-bastion/shot-boss.jpg" alt="A boss fight" width="540" height="960" loading="lazy">
       </div>
       <div class="actions">
-        <a class="btn btn-primary" id="play" aria-disabled="true"><span data-i18n="playSoon">Coming soon on Google Play</span></a>
+        <a class="btn btn-primary" id="play" href="https://play.google.com/store/apps/details?id=com.yemregames.dicebastion" rel="noopener"><span>Get it on Google Play</span></a>
         <a class="btn" href="dice-bastion/privacy/" data-i18n="privacy">Privacy policy</a>
       </div>
     </article>
@@ -123,8 +123,8 @@
 </footer>
 
 <script>
-  // Yayın günü: PLAY_LIVE = true.
-  var PLAY_LIVE = false;
+  // 27.10.2026: oyun yayında.
+  var PLAY_LIVE = true;
   var PLAY_URL = "https://play.google.com/store/apps/details?id=com.yemregames.dicebastion";
 
   var T = {
@@ -133,7 +133,7 @@
       about1: "I make mobile games on my own in Türkiye. Yemre Games is the name I publish them under.",
       about2: "Dice Bastion is my first game. I build it in Unity and keep updating it based on what players tell me.",
       gameTitle: "My game",
-      meta: "Android · In closed testing, coming soon",
+      meta: "Android · Available on Google Play",
       game1: "Throw dice and use the face that lands on top to defend your outpost from alien hordes.",
       game2: "After each wave you add new faces to your dice, across 5 planets and 40 levels.",
       playSoon: "Coming soon on Google Play",
@@ -150,7 +150,7 @@
       about1: "Türkiye'de tek başıma mobil oyunlar geliştiriyorum. Yemre Games, oyunlarımı yayınladığım ad.",
       about2: "Dice Bastion ilk oyunum. Unity ile geliştiriyorum ve oyunculardan gelen geri bildirimlerle güncellemeye devam ediyorum.",
       gameTitle: "Oyunum",
-      meta: "Android · Kapalı testte, yakında",
+      meta: "Android · Google Play'de yayında",
       game1: "Zar fırlat, üstte kalan yüzün gücüyle karakolunu uzaylı sürülerine karşı savun.",
       game2: "Her dalgadan sonra zarına yeni yüzler eklersin; 5 gezegen ve 40 seviye.",
       playSoon: "Yakında Google Play'de",
