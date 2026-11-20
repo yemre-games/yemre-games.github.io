@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "minVersionCode": 8,
   "planets": [
     { "id": "home_moon", "enemyHp": 1.0, "enemySpeed": 1.0, "enemyCount": 1.0 },
     { "id": "frost_moon", "enemyHp": 1.0, "enemySpeed": 1.0, "enemyCount": 1.0 },
